@@ -1,0 +1,238 @@
+/* &display=swap&subset=cyrillic-ext (вставить в плагин) для удаленного подключения*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext);
+
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Regular.woff2') format('woff2'),
+		url('../fonts/SFUIText-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF UI Text';
+	src: url('../fonts/SFUIText-Bold.woff2') format('woff2'),
+		url('../fonts/SFUIText-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	font-family: "Roboto";
+	line-height: 1;
+	background-color: rgb(177, 174, 174);
+
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	}
+
+/* --------------- */
+
+.work_1{
+	background: url(../img/back1.png) 0 0 / cover no-repeat;
+	padding: 280px 0px 312px 0px;
+	margin-bottom: 200px;
+}
+.content_1{
+	max-width: 1020px;
+	margin: auto;
+	
+		color: #FFF;
+}
+.text_1{
+max-width: 583px;
+	font-weight: 900;
+	font-size: 56px;
+	margin-bottom: 48px;
+	
+}
+.buttom_1{
+		display: inline-block;
+	}
+	a{
+		max-width: 211px;
+		color: #FFF;
+		padding: 9px 49px 9px 19px;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 2;
+			letter-spacing: 0.15px;
+			text-transform: uppercase;
+			background: red url(../img/arrow_forward_24px.png) 100% 0 / 30px 33px no-repeat;
+	}
+
+.work_2{
+	background: #02133C url('../img/backgound2.png') 0 0 / cover no-repeat;
+	padding: 112px 0px 212px 0px;
+
+}
+.content_2{
+	max-width: 1020px;
+		margin: 0px auto;
+		color: #FFF;
+
+}
+
+.romb{
+	font-weight: 700;
+		font-size: 12px;
+		line-height: 200%;
+		display: flex;
+			align-items: center;
+			letter-spacing: 2.5px;
+			text-transform: uppercase;
+			color: #D5D5D5;
+			margin-bottom: 31.77px;
+			background: url('../img/romb_work2.png') 0 0 no-repeat;
+			padding: 0px 0px 0px 33px;
+
+
+}
+.tittle_2{
+	max-width: 411px;
+	font-weight: 900;
+		font-size: 36px;
+		line-height: 1.17;
+		
+
+}
+.work_2_img {
+	text-align: right;
+		margin: -322px 0px 79px 0px;
+		vertical-align: top;
+}
+
+.box_1, .box_2, .box_3, .box_4{
+	display: inline-block;
+		max-width: 237px;
+		margin-right: 24px;
+		padding-left: 87px;
+		vertical-align: top;
+}
+
+.tittle_box_1, .tittle_box_2, .tittle_box_3, .tittle_box_4{
+	font-weight: 900;
+		font-size: 36px;
+		line-height: 1.17;
+		color: #C40B0B;
+		margin-bottom: 5px;
+}
+.text_box_1, .text_box_2, .text_box_3, .text_box_4{
+	font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.15px;
+		color: #F5F5F5;
+}
+.box_1{
+	background: url('../img/pervay_oil.png') 0 0 / 71px no-repeat;
+}
+.box_2{
+	background: url('../img/vtoray_transmission_24x.png') 0 0 / 71px no-repeat;
+}
+.box_3{
+	background: url('../img/tretiy_alignment_24x.png') 0 0 / 71px no-repeat;
+}
+.box_4{
+	background: url('../img/four_Vector.png') 0 0 / 71px no-repeat;
+}
+.work_3{
+	padding: 50px 0px;
+}
+.work_3_content{
+	max-width: 1020px;
+		margin: auto;
+		
+}
+.mailbox1, .mailbox2, .mailbox3, .mailbox4{
+	color: #4B4B4B;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 1.43;
+		letter-spacing: 0.15px;
+		padding-left: 30px;
+		margin-bottom: 16px;
+}
+.mailbox{
+	max-width: 240px;
+	background: url('../img/ul_1px.png') 0 2px / 16px no-repeat;
+}
+.mailbox2{
+	background: url('../img/ul_2.png') 0 2px / 16px no-repeat;
+}
+.mailbox3{
+	background: url('../img/ul_3.png') 0 2px / 16px no-repeat;
+}
+.mailbox4{
+	background: url('../img/ul_4.png') 0 2px / 16px no-repeat;
+}
+.work4_content{
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.turtle{
+	font-size: 25px;
+	margin-bottom: 10px;
+	background: url(../img/мики.jpg) 490px 0 / 25px no-repeat;
+	padding-top: 6px;
+	color: blue;
+}
+.work4{
+	margin-bottom: 50px;
+}
+span{
+	color: orange;
+}
